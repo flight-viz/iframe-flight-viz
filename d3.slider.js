@@ -176,7 +176,6 @@ d3.slider = function module() {
         if (Math.abs(valModStep) * 2 >= step) {
           alignValue += (valModStep > 0) ? step : -step;
         }
-        console.log(alignValue);
         return alignValue;
 
       }

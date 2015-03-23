@@ -110,10 +110,11 @@ var ChordViz = {
 			.offset([0, 0])
 			.direction(function(d) {
 				var a = (d.angle != undefined) ? d.angle : (d.startAngle+d.endAngle)/2;
-				if (a < 1.57) { return "ne"; }
-				else if (a < 3.14) { return "se"; }
-				else if (a < 4.71) { return "sw"; }
-				else { return "nw"; }
+				// if (a < 1.57) { return "ne"; }
+				// else if (a < 3.14) { return "se"; }
+				// else if (a < 4.71) { return "sw"; }
+				// else { return "nw"; }
+				return "se";
 			})
 			.html(function(d) {
 				if (d.index != undefined) {
