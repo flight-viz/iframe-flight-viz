@@ -96,6 +96,6 @@ var Calendar = {
             "Z";
         }
 
-        d3.select(self.frameElement).style("height", "2910px");
+        // d3.select(self.frameElement).style("height", "2910px");
     }
 };
